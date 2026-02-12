@@ -51,6 +51,7 @@ test.afterEach(async ({ }, testInfo) => {
 
     console.log(process.env.RECORD_VIDEO === 'on' ? `\n📹 Videos saved\n` : `\nVideo was not Recorded\n`);
 
+    
     console.log(`${WHITE}___________________________________________________________`);
 
 });
